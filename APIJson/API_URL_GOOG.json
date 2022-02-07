@@ -1,0 +1,23 @@
+{
+  "bidmanager": {
+    "listQueries": ["https://www.googleapis.com/doubleclickbidmanager/v1/queries"]
+  },
+  "dfa": {
+    "getProfileList": ["https://www.googleapis.com/dfareporting/v3.1/userprofiles"],
+    "listProfileReports": ["https://www.googleapis.com/dfareporting/v3.1/userprofiles/{PROFILE_ID}/reports"],
+    "getProfileReportLatest": ["https://www.googleapis.com/dfareporting/v3.1/userprofiles/{PROFILE_ID}/reports/{REPORT_ID}/files"],
+    "listUserProfiles": ["https://www.googleapis.com/dfareporting/v3.1/userprofiles"]
+  },
+  "sheets": {
+    "spreadsheet.values": ["https://sheets.googleapis.com/v4/spreadsheets/{spreadsheetId}/values/{range}"]
+  },
+  "drive": {
+    "drive.listFiles": ["https://www.googleapis.com/drive/v3/files"],
+    "drive.emptyTrash": ["https://www.googleapis.com/drive/v3/files/trash"]
+  },
+  "dfatrafficking": {
+    "listAccountUserProfiles": ["https://www.googleapis.com/dfareporting/v3.1/userprofiles/{PROFILE_ID}/accountUserProfiles"],
+    "patchProfile": ["https://www.googleapis.com/dfareporting/v3.1/userprofiles/{PROFILE_ID}/accountUserProfiles"]
+  }
+}
+

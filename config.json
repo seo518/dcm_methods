@@ -1,0 +1,6 @@
+{
+  "Config": {
+    "accountUserProfile.getCols": ["id","name","email","accountId","active"]
+  }
+}
+

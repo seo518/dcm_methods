@@ -1,0 +1,6 @@
+DCM
+get list of available profiles --UserProfiles: list
+get.db, loop all available through all profiles --AccountUserProfiles: list 
+user input --email address, search through all data.frames
+show output --email address, contained in which --AccountUserProfiles: list
+user input --logical, fields = active: true/false --AccountUserProfiles: patch
